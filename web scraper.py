@@ -8,7 +8,7 @@ import os
 baseDir = os.path.dirname(os.path.abspath(__file__)).replace('\\','/') + '/'
 os.chdir(baseDir)
 #create excel
-writer = pd.ExcelWriter('Raw Data.xlsx',options={'strings_to_urls': False})
+writer = pd.ExcelWriter('RawData.xlsx',options={'strings_to_urls': False})
 session = requests.Session()
 
 
