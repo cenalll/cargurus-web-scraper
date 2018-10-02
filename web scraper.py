@@ -100,7 +100,7 @@ ajaxUrl = ajaxUrl
 cars = session.post(ajaxUrl,headers=headers,data=post).text
 cars = json.loads(cars)['listings']
 rows = {column:[] for column in columns}
-
+#exclude m series
 for car in cars:
     if 'm' in car['trimName'].lower():
         continue
