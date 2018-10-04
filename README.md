@@ -1,4 +1,4 @@
-# cargurus-web-scraper
+# cargurus.com web scraper
 
 Extract data of specific car models from cargurus.com 
 Location: Iowa City (52240) to nationalwide
